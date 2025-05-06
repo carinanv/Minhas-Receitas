@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+    --cor-site:;
+    --cor-letra:;
+    --cor-secao:;
+    --cor-boton:;
+    --cor-hover:;
+}
+
+* {
+    font-family: ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: aquamarine;
+}
+
+body > header#cabecalho {
+    background-color: cadetblue;
+}
+
+span#burguer {
+    background-color: bisque;
+}
+
+menu#itens {
+    background-color: aqua;
+}
+
+main > section.receita {
+    background-color: burlywood;
+}
+
+main > section.receita > article.ingrediente {
+    background-color:darkslateblue;
+}
+
+footer{
+    background-color: cornflowerblue;
+}

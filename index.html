@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas</title>
-    <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+    </style>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header id="cabecalho">
         <h1>My Recipes</h1>
+        <span id="burguer" 
+        class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Doces</a></li>
+                <li><a href="#">Salgados</a></li>
+                <li><a href="#">Inicio</a></li>
+
+            </ul>
+        </menu>
 
     </header>
     <main>
@@ -46,13 +63,37 @@
                 <p>100g de cacau em pó</p>
                 <p>1 pitada de sal</p>
                 <p>1 colher de sopa de baunilha</p>
+                <!-- imagem -->
             </article>
             <h3>Modo de preparo:</h3>
             <p>Coloque uma panela em banho-maria quando estiver a ferver, na tigela em banho-maria, vamos derreter a manteiga o chocolate picadinho ou em gotas, após o chocolate estar derretido vamos acrescentar o açúcar mascavo sempre mexendo em banho-maria. Retire do banho-maria e vamos acrescentar os ovos e com um fuê vai mexendo, acrescente os secos o trigo e o cacau e misture muito bem adicione a pitada de sal e a baunilha. Unte uma forma e coloque papel manteiga, com o forno pré-aquecido em seguida coloque para assar a 180 graus por 40 minutos.</p>
 
             <strong>Nota: <em>Pode adicionar chocolate picado e castanhas</em>.</strong>
          </section>
-'   </main>
+   </main>
+
+<footer>
+    <p>Site criado por NeusaNeves</p>
+</footer>
+
+<script>
+
+    function mudouTamanho(){
+        if(window.innerWidth >= 768){
+            itens.style.display = 'block'
+        }else{
+            itens.style.display = 'none'
+        }
+    }
+
+    function clickMenu(){
+        if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        }else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
     
 </body>
 </html>
