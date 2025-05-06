@@ -12,12 +12,11 @@
         <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <main>
     <header id="cabecalho">
         <h1>My Recipes</h1>
-        <span id="burguer" 
-        class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-            </span>
+    
+    </header>
         <menu id="itens">
             <ul>
                 <li><a href="#">Doces</a></li>
@@ -27,8 +26,7 @@
             </ul>
         </menu>
 
-    </header>
-    <main>
+    
         <section class="receita">
             <h2>Bolo de chocolate de Mãe</h2>
             <h3>Ingredientes:</h3>
@@ -76,23 +74,6 @@
     <p>Site criado por NeusaNeves</p>
 </footer>
 
-<script>
-
-    function mudouTamanho(){
-        if(window.innerWidth >= 768){
-            itens.style.display = 'block'
-        }else{
-            itens.style.display = 'none'
-        }
-    }
-
-    function clickMenu(){
-        if (itens.style.display == 'block'){
-            itens.style.display = 'none'
-        }else {
-            itens.style.display = 'block'
-        }
-    }
 </script>
     
 </body>
