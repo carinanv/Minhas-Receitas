@@ -34,8 +34,11 @@ article > div.media {
     flex: 1 0 300px;
 }
 
+
 div.media > img {
-    width: 400px;
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 
 footer p {
