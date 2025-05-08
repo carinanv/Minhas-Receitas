@@ -212,9 +212,6 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width:1200px) { /*grandes telas*/
-    body {
-    
-    }
 
     section.normal > h2 {
         font-size: 2.3em;
