@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+:root {
+    --cor-princial-1: #FFFFFF;
+    --cor-principal-2: #000000;
+    --cor-rodapé: #557A48;
+    --cor-menu:#E36424;
+    --cor-: #A94A1B;
+    --cor-letra: #2D4026;
+    --cor-site: #E9EDC0;
+    --letra-títulos: "Knewave", system-ui;
+    --letra-parágrafo: "Playwrite DK Loopet", cursive;
+    --letra-normal: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: var(--cor-site);
+    height: 100vh;
+    width: 100vw;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: var(--letra-parágrafo);
+    text-align: justify;  
+    text-indent: 30px;
+    padding-bottom: 10px;
+    
+}
+
+h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+    font-family: var(--letra-parágrafo);
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: var(--cor-menu);
+    color: var(--cor-princial-1);
+    padding: 15px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.418);
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    font-family: var(--letra-normal);
+    text-align: justify;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
+    
+    flex:1 0 100px;
+}
+
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > a > span {
+    font-size: 1em;
+    text-align: center;
+}
+
+header > nav > a {
+    background-color: var(--cor-);
+    border-radius: 5px;
+    font-family: var(--letra-normal);
+    text-decoration: none;
+    text-align: center;
+    color: var(--cor-princial-1);
+    padding: 5px;
+    margin: 5px;
+
+}
+
+header > nav > a:hover {
+    color: var(--cor-letra);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: background-color .4s;
+}
+
+section.normal {
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.199);
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+section.content {
+    padding: 10px;
+    background-color:#f4f7d6;
+    border-radius: 3px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+article.recipe-media {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+
+}
+
+article > div.recipe {
+    flex: 1 1 450px;
+}
+
+article > div.media {
+    flex: 1 0 450px;
+}
+
+div.media {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+    background-color: #f4f7d6;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    background-position: center center;
+    background-size: cover;
+
+}
+
+footer > p{
+    font-family: var(--letra-normal);
+    font-size: 1.2em;
+    background-color: var(--cor-rodapé);
+    text-align: center;
+    color: var(--cor-princial-1);
+    padding: 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 100vw;
+}
