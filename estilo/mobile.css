@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
-html, body {
-    height: 100vh;
-    width: 100vw;
+body {
+    width: 100%;
 
 }
 
@@ -14,6 +13,7 @@ header > h1 {
     text-align: center;
     font-size: 1.3em;
     padding-right: 10px;
+    flex-flow: 0 0 50px;
     
 }
 
@@ -22,13 +22,12 @@ p {
 }
 
 header > nav > a {
-    width: 100vw;
+    width: 80px;
     
 }
 
 main {
-    width: 100vw;
-
+    width: 90vw;
 }
 
 article > div.media {
