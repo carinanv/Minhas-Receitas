@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-body {
-    width: 100%;
-
-}
-
 header, header > nav {
     flex-flow:row nowrap;
 }
@@ -13,6 +8,7 @@ header > h1 {
     text-align: center;
     font-size: 1.3em;
     padding-right: 10px;
+    flex-flow: 0 0 50px;
     
 }
 
@@ -21,13 +17,13 @@ p {
 }
 
 header > nav > a {
-    width: 100vw;
+    width: 20vw;
+    flex-flow: 0 0 300px;
     
 }
 
 main {
     width: 100vw;
-    margin: auto;
 }
 
 article > div.media {
