@@ -13,13 +13,9 @@ p {
     font-size: 1em;
 }
 
-header > nav > a {
-    width: 100px;
-    
-}
 
 main {
-    width: 100vw;
+    width: 400px;
     margin: auto;
 }
 
