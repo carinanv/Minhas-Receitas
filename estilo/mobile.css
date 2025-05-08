@@ -14,3 +14,7 @@ header > h1 {
 header > nav > a {
     width: 20vw;
 }
+
+div.media > img {
+    width: 50%;
+}
