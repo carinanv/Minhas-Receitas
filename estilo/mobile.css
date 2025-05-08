@@ -13,7 +13,6 @@ header > h1 {
     text-align: center;
     font-size: 1.3em;
     padding-right: 10px;
-    flex-flow: 0 0 50px;
     
 }
 
@@ -22,12 +21,12 @@ p {
 }
 
 header > nav > a {
-    width: 80px;
+    width: 100vw;
     
 }
 
 main {
-    width: 90vw;
+    width: 100vw;
     margin: auto;
 }
 
@@ -36,9 +35,7 @@ article > div.media {
 }
 
 div.media > img {
-    display: block;
-    margin: auto;
-    width: 100%;
+    width: 400px;
 }
 
 footer p {
