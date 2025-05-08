@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+html, body {
+    height: 100vh;
+
+}
+
 header, header > nav {
     flex-flow:row nowrap;
 }
@@ -12,10 +17,28 @@ header > h1 {
     
 }
 
+p {
+    font-size: 1em;
+}
+
 header > nav > a {
     width: 20vw;
+    flex-flow: 0 0 300px;
+    
+}
+
+main {
+    width: 90vw;
+}
+
+article > div.media {
+    flex: 1 0 300px;
 }
 
 div.media > img {
     width: 400px;
+}
+
+footer p {
+    font-size: 1em;
 }

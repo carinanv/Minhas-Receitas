@@ -63,6 +63,7 @@ header > h1 {
     font-family: var(--letra-normal);
     text-align: justify;
     font-size: 1.8em;
+    text-indent: 30px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
     
     flex:1 0 100px;
@@ -147,6 +148,8 @@ div.media {
 div.media > img {
     display: block;
     margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
     padding: 5px;
     width: 90%;
     background-color: #f4f7d6;
@@ -158,14 +161,59 @@ div.media > img {
 
 }
 
-footer > p{
-    font-family: var(--letra-normal);
-    font-size: 1.2em;
+footer {
     background-color: var(--cor-rodapé);
-    text-align: center;
-    color: var(--cor-princial-1);
     padding: 10px;
     margin-top: 20px;
     height: 50px;
     width: 100vw;
+}
+
+footer > p{
+    font-family: var(--letra-normal);
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--cor-princial-1);
+    
+}
+
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) { /*tablet*/
+    main {
+        width: 750px;
+        margin: auto;
+    }
+
+    h2 {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width:1200px) { /*grandes telas*/
+    body {
+    
+    }
+
+    main {
+        width: 1000px;
+        margin: auto;
+    }
+
+    section.content {
+        display: flex;
+        flex-flow: row wrap;
+    
+    }
+    
+    article > div.recipe {
+        flex: 0 0 900px;
+    }
 }
