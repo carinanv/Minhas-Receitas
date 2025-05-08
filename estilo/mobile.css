@@ -28,6 +28,7 @@ header > nav > a {
 
 main {
     width: 90vw;
+    margin: auto;
 }
 
 article > div.media {
