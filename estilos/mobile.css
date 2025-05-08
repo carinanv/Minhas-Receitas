@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+:root {
+    --cor-princial-1: #FFFFFF;
+    --cor-principal-2: #000000;
+    --cor-rodapé: #557A48;
+    --cor-menu:#E36424;
+    --cor-: #A94A1B;
+    --cor-letra: #2D4026;
+    --cor-site: #E9EDC0;
+    --letra-títulos: "Knewave", system-ui;
+    --letra-parágrafo: "Playwrite DK Loopet", cursive;
+    --letra-normal: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
