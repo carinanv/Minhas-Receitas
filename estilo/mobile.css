@@ -13,7 +13,6 @@ header > h1 {
     text-align: center;
     font-size: 1.3em;
     padding-right: 10px;
-    flex-flow: 0 0 50px;
     
 }
 
@@ -22,13 +21,13 @@ p {
 }
 
 header > nav > a {
-    width: 20vw;
-    flex-flow: 0 0 300px;
+    width: 100vw;
     
 }
 
 main {
-    width: 90vw;
+    width: 100vw;
+
 }
 
 article > div.media {
