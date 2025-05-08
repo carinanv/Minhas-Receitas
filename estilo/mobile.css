@@ -1,14 +1,11 @@
 @charset "UTF-8";
 
-header, header > nav {
-    flex-flow:row nowrap;
-}
+
 
 header > h1 {
     text-align: center;
     font-size: 1.3em;
     padding-right: 10px;
-    flex-flow: 0 0 50px;
     
 }
 
@@ -17,18 +14,18 @@ p {
 }
 
 header > nav > a {
-    width: 20vw;
-    flex-flow: 0 0 300px;
+    width: 100px;
     
 }
 
 main {
     width: 100vw;
+    margin: auto;
 }
 
-article > div.media {
+/* article > div.media {
     flex: 1 0 300px;
-}
+} */
 
 div.media > img {
     width: 400px;
