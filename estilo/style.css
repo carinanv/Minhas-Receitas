@@ -212,29 +212,19 @@ p {
 }
 
 main {
-    width: 500px;
+    width: 580px;
     margin: auto;
     padding: 30px;
 }
 
-section.content {
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-article > div.recipe {
-    flex: 0 0 500px;
-}
-
-/* article > div.media {
+ article > div.media {
     flex: 1 0 300px;
-} */
-
-
-footer p {
-    font-size: 1em;
 }
+
+div.media > img {
+    width: 100vw;
+}
+
 }
 
 @media screen and (min-width:768px) and (max-width:992px) { /*tablet*/
