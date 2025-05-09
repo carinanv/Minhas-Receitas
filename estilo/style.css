@@ -199,6 +199,43 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+@media screen and (min-width:580px) and (max-width:768px) {
+header > h1 {
+    text-align: center;
+    font-size: 1.3em;
+    padding-right: 10px;
+    
+}
+
+p {
+    font-size: 1em;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+section.content {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+article > div.recipe {
+    flex: 0 0 500px;
+}
+
+/* article > div.media {
+    flex: 1 0 300px;
+} */
+
+
+footer p {
+    font-size: 1em;
+}
+}
 
 @media screen and (min-width:768px) and (max-width:992px) { /*tablet*/
     main {
