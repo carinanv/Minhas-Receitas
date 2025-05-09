@@ -112,7 +112,7 @@ section.normal {
 }
 
 main {
-    background-color: white;
+    background-color: var(--cor-princial-1);
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
@@ -130,13 +130,10 @@ article.recipe-media {
     background-color: #E9EDC0;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
 
-article.recipe-media {
     display: flex;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
-
 }
 
 article > div.recipe {
@@ -191,47 +188,3 @@ footer > p{
 }
 
 
-/* Typical Device Breakpoints
-Pequenas telas: até 600px
-Celular: de 600px até 768px
-Tablet: 768px até 992
-Desktop: 992px até 1200px
-Grandes telas: acima de 1200px
-*/
-
-@media screen and (min-width:580px) and (max-width:768px) {}
-
-
-@media screen and (min-width:768px) and (max-width:992px) { /*tablet*/
-    main {
-        width: 750px;
-        margin: auto;
-    }
-
-    h2 {
-        padding-top: 15px;
-    }
-}
-
-@media screen and (min-width:1200px) { /*grandes telas*/
-
-    section.normal > h2 {
-        font-size: 2.3em;
-    }
-
-    main {
-        width: 1000px;
-        margin: auto;
-        padding: 30px;
-    }
-
-    section.content {
-        display: flex;
-        flex-flow: row wrap;
-    
-    }
-    
-    article > div.recipe {
-        flex: 0 0 900px;
-    }
-}

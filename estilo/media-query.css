@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root {
+    --cor-princial-1: #FFFFFF;
+    --cor-principal-2: #000000;
+    --cor-rodapé: #557A48;
+    --cor-menu:#E36424;
+    --cor-: #A94A1B;
+    --cor-letra: #2D4026;
+    --cor-site: #E9EDC0;
+    --letra-títulos: "Knewave", system-ui;
+    --letra-parágrafo: "Playwrite DK Loopet", cursive;
+    --letra-normal: Arial, Helvetica, sans-serif;
+}
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) { /*tablet*/
+
+    h2 {
+        padding-top: 15px;
+    }
+
+    main {
+        width: 90vw;
+        margin: auto;
+    }
+
+    section.content {
+        width: 82vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:992px) { /*grandes telas*/
+
+    section > h2 {
+        font-size: 2.2em;
+    }
+
+    main {
+        width: 990px;
+        margin: auto;
+    }
+
+    section.content {
+        width: 950px;
+        margin: auto;
+    }
+}
