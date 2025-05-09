@@ -212,9 +212,8 @@ p {
 }
 
 main {
-    width: 580px;
+    width: 100vw;
     margin: auto;
-    padding: 30px;
 }
 
  article > div.media {
